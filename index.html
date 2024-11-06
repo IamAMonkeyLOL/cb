@@ -1,73 +1,56 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CB Carpentry and Construction</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <nav class="navbar">
         <ul>
-          <li><a href="#home" onclick="showContent('home')">Home</a></li>
-          <li><a href="#info" onclick="showContent('info')">Info</a></li>
-          <li><a href="#contact" onclick="showContent('contact')">Contact Us</a></li>
+            <li><a href="#home" onclick="showContent('home')">Home</a></li>
+            <li><a href="#info" onclick="showContent('info')">Info</a></li>
+            <li><a href="#services" onclick="showContent('services')">Services</a></li>
+            <li><a href="#testimonials" onclick="showContent('testimonials')">Testimonials</a></li>
+            <li><a href="#faq" onclick="showContent('faq')">FAQ</a></li>
+            <li><a href="#contact" onclick="showContent('contact')">Contact Us</a></li>
         </ul>
-      </nav>
-      <h1 class="heading">CB's Carpentry and Construction</h1>
-      <!-- Content Sections -->
-      <div id="home" class="content-section"> 
-        <h1>Welcome to Our Buisness</h1>
+    </nav>
+
+    <h1 class="heading">CB's Carpentry and Construction</h1>
+
+    <div id="home" class="content-section"> 
+        <h1>Welcome to Our Business</h1>
         <p>Your trusted partner in quality craftsmanship and construction services.</p>
-        <p>Click on info to learn more about us!</p>
-        <img src="WhatsApp Image 2024-11-01 at 17.44.18 (1).jpeg" alt="work" class="Image1">
-        
-      </div>
-    
-      <div id="info" class="content-section" style="display: none;"> 
+        <p>Click on Info to learn more about us!</p>
+        <img src="hero-image.jpg" alt="work" class="image1">
+    </div>
+
+    <div id="info" class="content-section" style="display: none;">
         <h1>About Us</h1>
         <p>We specialize in woodworking, cabinetry, and custom furniture designed to meet your needs.</p>
-        <h3>Here is some photos to show you the sort of things that we can do for you and your home.</h3>
         <button id="nextBtn">Next Image</button>
         <div class="image-container">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.18 (2).jpeg" alt="Image 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.18 (1).jpeg" alt="Image 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.18.jpeg" alt="Image 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20 (1).jpeg" alt="Image 4" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20 (2).jpeg" alt="Image 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20 (3).jpeg" alt="Image 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20.jpeg" alt="Image 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.21 (1).jpeg" alt="Image 4" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.21 (2).jpeg" alt="Image 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.21.jpeg" alt="Image 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.23 (1).jpeg" alt="Image 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.23.jpeg" alt="Image 4" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.24 (1).jpeg" alt="Image 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.24.jpeg" alt="Image 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.25.jpeg" alt="Image 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (1).jpeg" alt="Image 4" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (2).jpeg" alt="Image 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (3).jpeg" alt="Image 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (4).jpeg" alt="Image 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26.jpeg" alt="Image 4" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.09.jpeg" alt="Image 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.16 (1).jpeg" alt="Image 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.16.jpeg" alt="Image 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.29.jpeg" alt="Image 4" class="image">
-
+            <!-- Add images as you've provided -->
         </div>
-        
+    </div>
 
+    <div id="services" class="content-section" style="display: none;">
+        <h1>Our Services</h1>
+        <ul>
+            <li>Custom Carpentry</li>
+            <li>Furniture Making</li>
+            <li>Kitchen Remodeling</li>
+            <li>And More...</li>
+        </ul>
+    </div>
 
+    <div id="testimonials" class="content-section" style="display: none;">
+        <h1>Testimonials</h1>
+        <p>"Fantastic job! CB Carpentry transformed our kitchen. Highly recommended!" - Jane D.</p>
+    </div>
 
+    <div id="faq" class="content-section" style="display: none;">
+        <h1>Frequently Asked Questions</h1>
+        <p>Q: How long does a typical project take?</p>
+        <p>A: Each project varies, but we’ll provide an estimate during consultation.</p>
+    </div>
 
-      </div>
-    
-      <div id="contact" class="content-section" style="display: none;"> 
+    <div id="contact" class="content-section" style="display: none;">
         <h1>Contact Us</h1>
-        <p>Feel free to reach out to us for inquiries and estimates. Call us at 07940512491 or email us at CBcarpentry1@hotmail.co.uk </p>
-      </div>
-    
-    
-    <script src="script.js"></script>
+        <p>Feel free to reach out for inquiries and estimates. Call us at 07940512491 or email us at CBcarpentry1@hotmail.co.uk</p>
+    </div>
 </body>
-</html>
