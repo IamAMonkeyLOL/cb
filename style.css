@@ -4,80 +4,90 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-  }
-  
-  /* Navbar style */
-  .navbar {
-    background-color: #8b4513; /* Wood-like brown color */
+}
+
+/* Navbar style */
+.navbar {
+    background-color: #8b4513;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .navbar ul {
+    text-align: center;
+}
+
+.navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-  }
-  
-  .navbar ul li {
+}
+
+.navbar ul li {
     margin: 0 20px;
-  }
-  
-  .navbar ul li a {
+}
+
+.navbar ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
     transition: color 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .navbar ul li a:hover {
-    color: #f0e68c; /* Light khaki for hover effect */
-    background-color: rgba(255, 255, 255, 0.2); /* Light overlay on hover */
+}
+
+.navbar ul li a:hover {
+    color: #f0e68c;
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 5px 10px;
     border-radius: 5px;
-  }
-  
-.heading {
-  font-size: 3rem;
-  color: #fff;
-  padding: 20px 40px;
-  background: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg') center center / cover;
-  background-blend-mode: multiply;
-  background-color: rgba(160, 82, 45, 0.7); /* Warm overlay for a rustic effect */
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
-  border-radius: 12px;
-  font-weight: bold;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Adds depth */
 }
+
+/* Heading style */
+.heading {
+    font-size: 3rem;
+    color: #fff;
+    padding: 20px 40px;
+    background: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg') center center / cover;
+    background-blend-mode: multiply;
+    background-color: rgba(160, 82, 45, 0.7);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Content section style */
 .content-section {
     text-align: center;
     padding: 40px;
-  }
+}
+
+/* Main Image style */
 .image1 {
     height: 400px;
     width: 500px;
-  }
-  .image-container {
+}
+
+/* Image carousel style */
+.image-container {
     position: relative;
-    height: 100vh; /* Full viewport height */
-    overflow: hidden; /* Hide overflow */
+    height: 60vh;
+    overflow: hidden;
 }
 
 .image {
-    position: absolute; /* Stack images on top of each other */
-    width: 500px; /* Full width */
-    height: auto; /* Maintain aspect ratio */
-    opacity: 0; /* Start as invisible */
-    transition: opacity 1s ease-in-out; /* Smooth opacity transition */
+    position: absolute;
+    width: 500px;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 .image.active {
-    opacity: 1; /* Show the active image */
+    opacity: 1;
 }
+
+/* Button style */
 button {
     background-color: #C70039;
     outline: none;
@@ -87,11 +97,9 @@ button {
     width: 50px;
     transition: all 0.5s ease-in-out;
 }
+
 button:hover {
     background-color: #69001e;
-    outline: none;
-    border: none;
-    border-radius: 50%;
     height: 80px;
     width: 80px;
     cursor: pointer;
