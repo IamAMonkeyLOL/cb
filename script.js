@@ -1,33 +1,31 @@
+// Function to toggle between sections
 function showContent(sectionId) {
-    // Hide all sections
     const sections = document.querySelectorAll('.content-section');
     sections.forEach(section => section.style.display = 'none');
-  
-    // Show the selected section
     const activeSection = document.getElementById(sectionId);
     if (activeSection) activeSection.style.display = 'block';
-  }
-  const images = document.querySelectorAll('.image');
+}
+
+// Image Carousel functionality
+const images = document.querySelectorAll('.image');
 let currentIndex = 0;
 
-// Show the first image initially
+// Show the first image
 function showImage(index) {
     images.forEach((img, i) => {
         img.classList.remove('active');
-        if (i === index) {
-            img.classList.add('active'); // Add active class to the current image
-        }
+        if (i === index) img.classList.add('active');
     });
 }
 
-// Function to go to the next image
+// Go to the next image
 function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+    currentIndex = (currentIndex + 1) % images.length;
     showImage(currentIndex);
 }
 
-// Listen for the button click
+// Event listener for "Next Image" button
 document.getElementById('nextBtn').addEventListener('click', nextImage);
 
-// Initial display
+// Auto-start the first image
 showImage(currentIndex);
