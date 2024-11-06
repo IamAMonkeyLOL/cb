@@ -88,19 +88,22 @@ body {
 }
 
 /* Button style */
-button {
-    background-color: #C70039;
-    outline: none;
+#nextBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
     border: none;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    transition: all 0.5s ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
 }
 
-button:hover {
-    background-color: #69001e;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
+#nextBtn:hover {
+    background-color: #45a049;
+}
+#info{
+    display: flex;
+    justify-content: center;
 }
