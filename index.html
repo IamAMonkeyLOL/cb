@@ -3,76 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CB Carpentry and Construction</title>
+    <title>CB Carpentry & Construction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
         <ul>
-          <li><a href="#home" onclick="showContent('home')">Home</a></li>
-          <li><a href="#info" onclick="showContent('info')">Info</a></li>
-          <li><a href="#contact" onclick="showContent('contact')">Contact Us</a></li>
+            <li><a href="#home" onclick="showContent('home')">Home</a></li>
+            <li><a href="#info" onclick="showContent('info')">Info</a></li>
+            <li><a href="#contact" onclick="showContent('contact')">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Main Heading -->
-    <h1 class="heading">CB's Carpentry and Construction</h1>
+    <!-- Heading -->
+    <header class="heading">
+        Welcome to CB's Carpentry & Construction
+    </header>
 
     <!-- Content Sections -->
-    <!-- Home Section -->
-    <div id="home" class="content-section">
-        <h1>Welcome to Our Business</h1>
-        <p>Your trusted partner in quality craftsmanship and construction services.</p>
-        <p>Click on "Info" to learn more about us!</p>
-        <img src="WhatsApp Image 2024-11-01 at 17.44.18 (1).jpeg" alt="work" class="image1">
-    </div>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="content-section">
+            <h2>Welcome</h2>
+            <p>Your trusted partner in quality craftsmanship and construction services. Explore our gallery and contact us to get started on your project!</p>
+        </section>
 
-    <!-- Info Section -->
-    <div id="info" class="content-section" style="display: none;">
-        <h1>About Us</h1>
-        <p>We specialize in woodworking, cabinetry, and custom furniture designed to meet your needs.</p>
-        <h3>Here are some photos to show you what we can do for you and your home.</h3>
-        <button id="nextBtn">Next Image</button>
-        <div class="image-container">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.18 (1).jpeg" alt="Carpentry work example 1" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.18 (2).jpeg" alt="Carpentry work example 2" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.18.jpeg" alt="Carpentry work example 3" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20 (1).jpeg" alt="Carpentry work example 4" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20 (2).jpeg" alt="Carpentry work example 5" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20 (3).jpeg" alt="Carpentry work example 6" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.20.jpeg" alt="Carpentry work example 7" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.21 (1).jpeg" alt="Carpentry work example 8" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.21 (2).jpeg" alt="Carpentry work example 9" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.21.jpeg" alt="Carpentry work example 10" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.23 (1).jpeg" alt="Carpentry work example 11" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.23.jpeg" alt="Carpentry work example 12" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.24 (1).jpeg" alt="Carpentry work example 13" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.24.jpeg" alt="Carpentry work example 14" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.25.jpeg" alt="Carpentry work example 15" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (1).jpeg" alt="Carpentry work example 16" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (2).jpeg" alt="Carpentry work example 17" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (3).jpeg" alt="Carpentry work example 18" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26 (4).jpeg" alt="Carpentry work example 19" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.44.26.jpeg" alt="Carpentry work example 20" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.09.jpeg" alt="Carpentry work example 21" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.16 (1).jpeg" alt="Carpentry work example 22" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.16.jpeg" alt="Carpentry work example 23" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.20.jpeg" alt="Carpentry work example 24" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.22.jpeg" alt="Carpentry work example 25" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.25.jpeg" alt="Carpentry work example 26" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.27.jpeg" alt="Carpentry work example 27" class="image">
-            <img src="WhatsApp Image 2024-11-01 at 17.50.29.jpeg" alt="Carpentry work example 28" class="image">
-        </div>
-    </div>
+        <!-- Info Section -->
+        <section id="info" class="content-section" style="display: none;">
+            <h2>Our Services</h2>
+            <p>We specialize in custom furniture, cabinetry, and home renovations. Take a look at some of our work:</p>
+            <div class="image-container">
+                <img src="example1.jpg" alt="Carpentry Example">
+                <img src="example2.jpg" alt="Carpentry Example">
+                <img src="example3.jpg" alt="Carpentry Example">
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <div id="contact" class="content-section" style="display: none;">
-        <h1>Contact Us</h1>
-        <p>Feel free to reach out to us for inquiries and estimates. Call us at 07940512491 or email us at CBcarpentry1@hotmail.co.uk.</p>
-    </div>
-
-    <!-- Script Linking -->
+        <!-- Contact Section -->
+        <section id="contact" class="content-section" style="display: none;">
+            <h2>Contact Us</h2>
+            <p>Call us: <strong>07940512491</strong></p>
+            <p>Email: <strong>CBcarpentry1@hotmail.co.uk</strong></p>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
